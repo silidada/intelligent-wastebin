@@ -11,16 +11,20 @@ import numpy as np
 
 class PredictRubbishClass:
 
-    def __init__(self, path):
+    def __init__(self, model_path):
         """
-        :param path: a str, the model path
+        :param path: a dict, the model path
         """
 
-        assert (isinstance(path, str))
+        assert (isinstance(model_path, dict))
 
         print('loading model...')
+        models = {}
         try:
-            model = load_model(filepath=path)
+            for model_name, path in model_path.items():
+                model = load_model(filepath=path)
+                models[model_name] = model
+                
         except Exception as e:
             print('some error were occur when loading the model',e)
             sys.exit('sorry goodbye')
@@ -28,7 +32,7 @@ class PredictRubbishClass:
 
         self.className = {}
 
-        self.model = model
+        self.models = models
 
         self.history_path = 'history.txt'
 
@@ -41,11 +45,18 @@ class PredictRubbishClass:
     def predict_class(self, image):
         """
         :param image: a numpy array, the image you want to predict
-        :return: a int, the number the model output
+        :return: a str, the classname
         """
 
-        result = self.model.predict(image)
-        result = np.argmax(result)
+        results = {}
+        score = []
+        for model_name, model in self.models.items():
+            result = model.predict(image)
+            result_max = np.max(result)
+            results[result_max] = model_name
+            score.append(result_max)
+        result = max(score)
+        result = results[result]
 
         return result
 

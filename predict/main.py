@@ -6,11 +6,12 @@
 
 from predict.predict_class import PredictRubbishClass
 from Window.history import save
+import os
 
 
 def main(model_path, history_path):
     # 传入model_path实例化对象
-    p = PredictRubbishClass(path=model_path)
+    p = PredictRubbishClass(model_path=model_path)
     while True:
         # 获取单片机返回的图片
         image = p.get_image()
@@ -25,6 +26,14 @@ def main(model_path, history_path):
 
 
 if __name__ == '__main__':
-    model_path = ''
-    history_path = ''
-    main(model_path=model_path, history_path=history_path)
+    root_path = os.path.abspath('..')
+    model_dir = root_path + '/model'
+    path = os.listdir(model_dir)
+    model_name = []
+    for p in path:
+        if p.split('.', 1)[1] == 'h5':
+            model_name.append(p)
+    print(model_name)
+
+    # history_path = ''
+    # main(model_path=model_path, history_path=history_path)
