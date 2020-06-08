@@ -157,7 +157,7 @@ class Window:
         self.button3 = self.built_bottom(frame=self.frm3, size=(2, 15), position=(0, 5),
                                          text='最近一年', function=lambda: self.button_choose(3))
         # 图片
-        self.image_label = self.built_image_label(frame=self.frm1, photo_path=r'C:\Users\HaHa Chen\Downloads\timg.gif',
+        self.image_label = self.built_image_label(frame=self.frm1, photo_path=r'C:\Users\HaHa Chen\Downloads\1.gif',
                                                   position=(1, 1), size=(150, 300))
         # 最上方的孔label, 让图片离顶部远一点
         self.empty_label1 = self.built_empty_label(frame=self.frm1, position=(0, 0), size=(5, 42))

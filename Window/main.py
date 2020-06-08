@@ -24,7 +24,7 @@ def deal_with_history():
 
 
 def main():
-    pie_path = {'last_week': '',
+    pie_path = {'last_week': r'..\lalala.png',
                 'last_month': '',
                 'last_year': ''}
     window = Window(pie_path=pie_path)

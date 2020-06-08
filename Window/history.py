@@ -166,7 +166,7 @@ def draw_in_image(data, path, name):
 
 
 if __name__ == '__main__':
-    d = {'classname': ['kehuishou', 'youhai', 'kehuishou', 'qita', 'youhai', 'kehuishou'],
+    d = {'classname': ['可回收', '有害', '可回收', '其他', '有害', '可回收'],
          'Day': [1, 2, 3, 1, 2, 3],
          'path': ['lala', 'aaad', 'dakljfl', 'ajsdlfk', 'ajdlfkj', 'ajfla']}
     d = pd.DataFrame(d)

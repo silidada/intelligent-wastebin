@@ -35,7 +35,51 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.window">
+    <configuration name="history" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="intelligent-wastebin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Window" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Window/history.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="intelligent-wastebin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Window" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Window/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="intelligent-wastebin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,8 +102,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="window" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="intelligent-wastebin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Window" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Window/window.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.window" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.history" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -76,6 +145,11 @@
       <updated>1590141381484</updated>
       <workItem from="1590141383722" duration="1162000" />
       <workItem from="1590301051685" duration="2491000" />
+      <workItem from="1590328952170" duration="1088000" />
+      <workItem from="1590391165587" duration="1364000" />
+      <workItem from="1590404085904" duration="1070000" />
+      <workItem from="1590651445737" duration="10000" />
+      <workItem from="1591245891142" duration="7000" />
     </task>
     <servers />
   </component>
@@ -91,26 +165,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1590142519150" />
-    <state width="724" height="223" key="GridCell.Tab.0.bottom" timestamp="1590304148577">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="40" key="GridCell.Tab.0.bottom" timestamp="1590393201695">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="724" height="223" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590304148577" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1590302408254" />
-    <state width="724" height="223" key="GridCell.Tab.0.center" timestamp="1590304148577">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="40" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1590393201695" />
+    <state width="1493" height="40" key="GridCell.Tab.0.center" timestamp="1590393201695">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="724" height="223" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590304148577" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1590302408253" />
-    <state width="724" height="223" key="GridCell.Tab.0.left" timestamp="1590304148577">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="40" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1590393201695" />
+    <state width="1493" height="40" key="GridCell.Tab.0.left" timestamp="1590393201695">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="724" height="223" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590304148577" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1590302408253" />
-    <state width="724" height="223" key="GridCell.Tab.0.right" timestamp="1590304148577">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1493" height="40" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1590393201695" />
+    <state width="1493" height="40" key="GridCell.Tab.0.right" timestamp="1590393201695">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="724" height="223" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590304148577" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1590302408253" />
+    <state width="1493" height="40" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1590393201695" />
     <state x="320" y="49" key="SettingsEditor" timestamp="1590142501289">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -121,6 +195,9 @@
     <state x="563" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1590142543980" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/intelligent_wastebin$history.coverage" NAME="history Coverage Results" MODIFIED="1590391222551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Window" />
+    <SUITE FILE_PATH="coverage/intelligent_wastebin$window.coverage" NAME="window Coverage Results" MODIFIED="1590392631122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Window" />
+    <SUITE FILE_PATH="coverage/intelligent_wastebin$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1590392507035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Window" />
     <SUITE FILE_PATH="coverage/intelligent_wastebin$main.coverage" NAME="main Coverage Results" MODIFIED="1590302408243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/predict" />
   </component>
 </project>
